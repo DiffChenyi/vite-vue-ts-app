@@ -18,7 +18,10 @@
       "@/*": [
         "src/*"
       ]
-    }
+    }, // 指定ElementUI全局组件类型
+    "types": [
+      "element-plus/global"
+    ]
   },
   "include": [
     "src/**/*.ts",
